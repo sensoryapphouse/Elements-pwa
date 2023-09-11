@@ -1,0 +1,156 @@
+html {
+    cursor: default;
+    background-color: #fff;
+    background-color: #36393f;
+    overflow: hidden
+}
+
+body {
+    color: black;
+}
+
+body.noScroll {
+    overflow: hidden;
+}
+
+splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(../images/splash.jpg);
+    background-size: 100vw 100vh;
+    background-color: black;
+    opacity: 1.0;
+    z-index: 1002;
+    -webkit-app-region: no-drag;
+}
+
+crosshairs {
+    position: absolute;
+    top: 45vw;
+    left: 40vh;
+    width: 5vw;
+    height: 10vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(../images/crosshairs.png);
+    background-size: 5vw 10vh;
+    background-color: transparent;
+    opacity: 1;
+    z-index: 1105;
+    pointer-events: none;
+    -webkit-app-region: no-drag;
+}
+
+
+panel {
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 6px;
+    outline: none;
+    background: url(../images/panel.png);
+    background-size: 100% 100%;
+    background-color: transparent;
+    opacity: 0;
+    z-index: 1005;
+    -webkit-app-region: no-drag;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: .1vh;
+    margin-bottom: .25vh;
+    margin-left: .1vw;
+    margin-right: .1vw;
+    width: 6.8vw;
+    height: 8.5vh;
+    position: relative;
+    border-color: white;
+    background-size: 6.8vw 8.5vh;
+    Opacity: .8;
+}
+
+button:hover {
+    Opacity: 1;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.box {
+    background-color: black;
+    display: block;
+    padding: 0px;
+    left: 0vw;
+    top: 0vh;
+    width: 80vw;
+    height: 100vh;
+    border-radius: 0px;
+    position: absolute;
+}
+
+#cursor {
+    display: none;
+    pointer-events: none;
+    position: absolute;
+}
+
+#grains {
+    position: absolute;
+    top: 1vh;
+    left: 85vw;
+    width: 7vw;
+    height: 70.5vh;
+    margin: 0;
+    border-radius: 6px;
+    background-color: transparent;
+    padding: 5vh, 5vw, 5vh, 5vw;
+}
+
+#solids {
+    position: absolute;
+    top: 73vh;
+    left: 85vw;
+    width: 7vw;
+    height: 26.5vh;
+    margin: 0;
+    border-radius: 6px;
+    background-color: transparent;
+    padding: 5vh, 5vw, 5vh, 5vw;
+}
+
+#spawners {
+    position: absolute;
+    top: 15vh;
+    left: 1vw;
+    width: 7vw;
+    height: 35.5vh;
+    border-radius: 6px;
+    background-color: transparent;
+    padding: 5vh, 5vw, 5vh, 5vw;
+}
+
+#liquids {
+    position: absolute;
+    top: 60vh;
+    left: 1vw;
+    width: 7vw;
+    height: 35.5vh;
+    border-radius: 6px;
+    background-color: transparent;
+    padding: 5vh, 5vw, 5vh, 5vw;
+}

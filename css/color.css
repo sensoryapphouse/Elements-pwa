@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "nevis Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("https://cdn.glitch.com/fda6f707-e98d-43dc-bf2a-b42cb1acc2c3%2Fnevis.woff?v=1574552202182");
+}
+
+:root {
+    --text: #E0E0E0;
+    --backgr: #0A0A0A;
+    --link: #00ADFF;
+    --button: rgb(255, 145, 0);
+    --button-hover: rgb(187, 107, 1);
+
+    --discord-purple: #7289DA;
+    --discord-purple-darker: #5F72B3;
+    --discord-gray: #99AAB5;
+    --discord-gray-darker: #455A64;
+    --main: #2C2F33;
+    --main-dark: #23272A;
+    --main-darker: #202225;
+    --main-black: #1C1F21;
+    --main-blacker: #151515;
+}
+
+#CLEAR {
+    background: url(../images/f4.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#SAND {
+    background-color: rgb(210, 180, 140);
+    background: url(../images/g2.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#WALL {
+    background: url(../images/s3.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#WATER {
+    background: url(../images/g4.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#SPRING {
+    background: url(../images/e2.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#LIFE {
+    background: url(../images/s2.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#FIRE {
+    background: url(../images/f2.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#LAVA {
+    background: url(../images/f3.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#OIL {
+    background: url(../images/g3.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#OIL_WELL {
+    background: url(../images/e1.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#GASOLINE {
+    background: url(../images/g8.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#GAS_PUMP {
+    background: url(../images/e3.png);
+    background-size: 6.8vw 8.5vh;
+    color: Black;
+}
+
+#DARK_MATTER {
+    background-color: rgb(30, 30, 30);
+    background: url(../images/f1.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#CONCRETE {
+    background: url(../images/g6.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#STEAM {
+    background: url(../images/g1.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#VOLCANO {
+    background: url(../images/e4.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#SALT {
+    background: url(../images/g7.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#SALT_WATER {
+    background: url(../images/g5.png);
+    background-size: 6.8vw 8.5vh;
+}
+
+#WOOD {
+    background: url(../images/s1.png);
+    background-size: 6.8vw 8.5vh;
+}

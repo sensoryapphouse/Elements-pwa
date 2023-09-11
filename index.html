@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sensory Elements</title>
+
+    <link rel="stylesheet" href="./css/color.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="box">
+        <canvas width="1000" height="800" id="game"> Your browser does not support canvas :( </canvas>
+    </div>
+    <div id="cursor"></div>
+
+    <div class="box panel" id="grains">
+        <table>
+            <tr>
+                <button class="button" onclick="tool(STEAM);" id="STEAM"></button>
+                <button class="button" onclick="tool(SAND);" id="SAND"></button>
+                <button class="button" onclick="tool(OIL);" id="OIL"></button>
+                <button class="button" onclick="tool(WATER);" id="WATER"></button>
+                <button class="button" onclick="tool(SALT_WATER);" id="SALT_WATER"></button>
+                <button class="button" onclick="tool(CONCRETE);" id="CONCRETE"></button>
+                <button class="button" onclick="tool(SALT);" id="SALT"></button>
+                <button class="button" onclick="tool(GASOLINE);" id="GASOLINE"></button>
+            </tr>
+        </table>
+    </div>
+    <div class="box panel" id="spawners">
+        <table>
+            <tr>
+                <button class="button" onclick="tool(OIL_WELL);" id="OIL_WELL"></button>
+                <button class="button" onclick="tool(SPRING);" id="SPRING"></button>
+                <button class="button" onclick="tool(GAS_PUMP);" id="GAS_PUMP"></button>
+                <button class="button" onclick="tool(VOLCANO);" id="VOLCANO" title=""></button>
+            </tr>
+        </table>
+    </div>
+    <div class="box panel" id="solids">
+        <table>
+            <tr>
+                <button class="button" onclick="tool(WOOD);" id="WOOD"></button>
+                <button class="button" onclick="tool(LIFE);" id="LIFE"></button>
+                <button class="button" onclick="tool(WALL);" id="WALL"></button>
+            </tr>
+        </table>
+    </div>
+    <div class="box panel" id="liquids">
+        <table>
+            <tr>
+                <button class="button" onclick="tool(DARK_MATTER);" id="DARK_MATTER"></button>
+                <button class="button" onclick="tool(FIRE);" id="FIRE"></button>
+                <button class="button" onclick="tool(LAVA);" id="LAVA"></button>
+                <button onclick="test.clear();" id="CLEAR"></button>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <splash class="btn" enabled></splash>
+        <crosshairs class="btn" enabled></crosshairs>
+        <panel class="img" enabled></panel>
+    </div>
+
+    <script src="gamepads.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/draw2d.js"></script>
+    <script src="./js/spawner.js"></script>
+    <script src="./js/mouse.js"></script>
+    <script src="main.js"></script>
+    <script>
+        var test = new Game();
+        var tool = (t) => {
+            test.mouse.tool = t;
+        };
+
+    </script>
+</body>
+
+</html>
